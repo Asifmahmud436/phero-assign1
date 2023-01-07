@@ -1,0 +1,166 @@
+*{
+    font-family: 'Heebo', sans-serif;
+}
+
+/* body */
+
+body{
+    margin: 0px;
+}
+/* banner section */
+
+.banner{
+    background-image: url("images/banner/banner1.png");
+    background-size: cover;
+    height: 700px;
+}
+
+.banner-description{
+    text-align: right;
+    padding-right: 180px;
+    padding-top: 150px;
+    /* padding-bottom: 500px; */
+    padding-left: 900px;
+}
+
+.banner-title{
+    font-weight: 900;
+    font-size: 50px;
+    /* padding-bottom: 10px; */
+}
+
+.banner-btn{
+    color: aliceblue;
+    background-color: rgb(255, 123, 67);
+    padding: 13px 20px;
+    border: 2px solid rgb(255, 123, 67);
+    border-radius: 4px;
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+/* failure-section */
+
+.failure{
+    display: flex;
+    margin: 130px;
+}
+
+.person-img{
+    padding-right: 80px;
+}
+
+.failure-writings{
+    padding-top: 110px;
+    padding-right: 90px;
+}
+
+.failure-title{
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.failure-icon{
+    display: flex;
+}
+
+.failure-icon-image{
+    padding-right: 10px;
+    height: 25px;
+    padding-top: 15px;
+}
+
+/* success section */
+
+#success-img{
+    margin: 60px;
+} 
+
+#success-content{
+    margin-left: 120px;
+}
+/* my plans section */
+.my-plans{
+    text-align: center;
+    margin: 130px;
+}
+
+.plans{
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan-description{
+    color: rgb(127, 126, 126);
+}
+
+.each-plan{
+    padding: 20px;
+}
+
+.plan-header{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.plan-title{
+    font-size: 20px;
+}
+
+/* image-grad section */
+
+.img-grad{
+    margin: 90px 150px;
+    border: 0px solid black;
+    border-radius: 8px;
+    background-size: cover;
+    background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(241, 100, 19)),url("images/watch.png");
+}
+
+.img-grad-content{
+    padding-left: 30px;
+    padding-bottom: 30px;
+    
+}
+
+.img-grad-btn{
+    color: rgb(255, 123, 67);
+    background-color: white;
+    padding: 13px 20px;
+    border: 2px solid white;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.img-grad-title{
+    font-size: 35px;
+    padding-top: 30px;
+    color: white;
+}
+
+/* contact-me-section */
+
+.contact-me{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 130px;
+    padding: 50px 220px;
+    background-color: pink;
+}
+
+.contact-info{
+    padding-right: 280px;
+}
+
+.contact-inp{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 70px;
+    margin-bottom: 18px;
+    font-size: 16px;
+    border: 2px solid pink;
+    border-radius: 8px;
+}
